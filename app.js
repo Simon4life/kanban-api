@@ -24,7 +24,7 @@ app.use(
 );
 
 var corsOptions = {
-  origin: "https://kanban-tasker.netlify.app/",
+  origin: "https://kanban-tasker.netlify.app",
   credentials: true
 };
 app.use(cors(corsOptions));
